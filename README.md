@@ -1,6 +1,6 @@
 # 🎞 ytCropper
 
-ytCropper is a program that allows users to crop a specified duration of a YouTube video, while also detecting and tracking faces and/or speakers in the video. This is accomplished using AI-powered algorithms, specifically Dlib and DeepSearch.
+ytCropper is a program that allows users to crop a specified duration of a YouTube video, while also detecting and tracking faces and/or speakers in the video. This is accomplished using AI-powered algorithms, using Dlib and DeepSearch Deep pre-trained models.
 
 ## Installation
 
