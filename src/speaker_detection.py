@@ -35,7 +35,7 @@ def detect_speaker(video_path, wav_audio_path, face_info, n_clusters=2):
         return None
 
     # Adjusting KMeans parameters
-    kmeans = KMeans(n_clusters=2, random_state=42, tol=1e-3, max_iter=1)
+    kmeans = KMeans(n_clusters=2, random_state=42, tol=1e-4, max_iter=300)
     kmeans.fit(mfcc_features)
 
     speaker_labels = kmeans.labels_
