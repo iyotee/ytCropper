@@ -1,0 +1,6 @@
+yt-dlp
+moviepy
+dlib
+numpy
+opencv-python-headless
+deepspeech
