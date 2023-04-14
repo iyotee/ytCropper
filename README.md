@@ -41,19 +41,33 @@ wget https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0
 wget https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer
 ```
 
-Placer les modèles dans le dossier models/DeepSeach et models/dlib
 
 
 #### Usage
 Run python ytCropper.py to start the program.
+
+``bash
+python ytCropper.py
+``
+
 Provide the YouTube video URL when prompted.
+
 Specify the duration of the short video you wish to create. If no duration is provided, the default value of 60 seconds will be used.
+
 Provide the start time for the short video.
+
 The original video and audio will be trimmed to match the specified duration and start time.
+
 Face detection will be performed using Dlib, an open-source library for machine learning, to detect faces in the trimmed video. The number of faces detected in each frame will be monitored.
+
 If a face is detected, the program will track the face and crop the current frame. The crop will be centered on the face and will be equal to the height of the original frame. The width of the crop will be in a 9:16 aspect ratio. If there are no faces detected, the crop will be centered in the middle of the frame and will maintain the 9:16 aspect ratio.
+
 In the case of multiple faces detected per frame, the program will use DeepSearch, a powerful AI tool for speech-to-text transcription and speaker recognition, to detect the speaker. 
 
 Then, the program will track the speaker and crop the frame with the same parameters as before when a face was detected with Dlib.
+
 Once all of the cropping is completed, the frames will be merged with the trimmed audio.
+
 The final video will be exported to a separate folder.
+
+That's it folks ! Enjoy it ! 
