@@ -1,6 +1,4 @@
 # ytCropper
-<<<<<<< HEAD
-=======
 
 ytCropper is a program that allows users to crop a specified duration of a YouTube video, while also detecting and tracking faces and/or speakers in the video. This is accomplished using AI-powered algorithms, specifically Dlib and DeepSearch.
 
@@ -50,6 +48,3 @@ In the case of multiple faces detected per frame, the program will use DeepSearc
 Then, the program will track the speaker and crop the frame with the same parameters as before when a face was detected with Dlib.
 Once all of the cropping is completed, the frames will be merged with the trimmed audio.
 The final video will be exported to a separate folder.
->>>>>>> origin/main
-# ytCropper
-# ytCropper
