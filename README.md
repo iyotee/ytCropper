@@ -15,11 +15,20 @@ Make sure you have the following requirements installed:
 - wget
 - pre-trained models for face detection and speaker recognition (see below for instructions)
 
-You can install all the necessary libraries by running:
+First, install the requirements by running:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -use-pep517 -r requirements.txt
 ```
+
+You can install all the necessary by running:
+
+```bash
+chmod +x create.sh
+./create.sh
+```
+
+This bash will create all the necessaries folders and files for the projects as well as download the necessaries models
 
 Pre-trained Models
 
