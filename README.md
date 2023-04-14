@@ -68,6 +68,6 @@ Then, the program will track the speaker and crop the frame with the same parame
 
 Once all of the cropping is completed, the frames will be merged with the trimmed audio.
 
-The final video will be exported to a separate folder.
+The final video will be exported to the same folder.
 
 That's it folks ! Enjoy it ! 
