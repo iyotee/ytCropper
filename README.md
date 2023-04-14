@@ -46,9 +46,9 @@ wget https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0
 #### Usage
 Run python ytCropper.py to start the program.
 
-``bash
-python ytCropper.py
-``
+```bash
+python src/main.py
+```
 
 Provide the YouTube video URL when prompted.
 
