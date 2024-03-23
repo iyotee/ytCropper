@@ -18,7 +18,7 @@ Make sure you have the following requirements installed:
 First, install the requirements by running:
 
 ```bash
-pip3 install -use-pep517 -r requirements.txt
+pip3 install --use-pep517 -r requirements.txt
 ```
 
 You can install all the necessary by running:
